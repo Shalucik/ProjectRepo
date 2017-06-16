@@ -25,7 +25,7 @@ public abstract class Product {
 		return getNaam() + " " + getEenheidNaam() + " " + getPrijsPerEenheid();
 	}
 	
-	private int getPrijs(int hoeveelheid){
+	public int getPrijs(int hoeveelheid){
 		return getPrijsPerEenheid() * hoeveelheid;
 	}
 	

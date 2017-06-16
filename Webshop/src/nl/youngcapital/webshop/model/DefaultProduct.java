@@ -8,11 +8,11 @@ public class DefaultProduct extends Product {
 	private int eenheid;
 
 	
-	DefaultProduct(String naam, int prijspereenheid, String imageurl, int eenheid) {
+	public DefaultProduct(String naam, int prijspereenheid, String imageurl, int eenheid) {
 		super(naam, prijspereenheid, imageurl, eenheid);
 	}
 	
-	DefaultProduct(String naam, int prijspereenheid, String imageurl) {
+	public DefaultProduct(String naam, int prijspereenheid, String imageurl) {
 		super(naam, prijspereenheid, imageurl);
 	}
 	
