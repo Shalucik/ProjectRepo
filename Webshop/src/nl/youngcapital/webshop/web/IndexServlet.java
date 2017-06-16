@@ -26,7 +26,7 @@ public class IndexServlet extends HttpServlet {
 		List<Product> vooraad = new ArrayList<Product>();
 		vooraad.add(new DefaultProduct("Appels", 2, "http://www.jamiemagazine.nl/upload/artikel/jm/appel-artikel.jpg"));
 		vooraad.add(new DefaultProduct("Peren", 1, "/Peer.jpg"));
-		response.getWriter().print(vooraad);
+		response.getWriter().print(vooraad);		
 	}
 
 }

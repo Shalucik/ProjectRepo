@@ -1,0 +1,10 @@
+th, td {
+	boder-collapse: collapse;
+	border-style: dashed;
+	text-align: center;	
+}
+
+img {
+	width:500px;
+	height:auto;
+}
