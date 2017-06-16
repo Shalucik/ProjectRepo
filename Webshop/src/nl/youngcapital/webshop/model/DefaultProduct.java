@@ -17,7 +17,7 @@ public class DefaultProduct extends Product {
 	}
 	
 	@Override
-	protected String getNaam() {
+	public String getNaam() {
 		return this.naam;
 	}
 
@@ -37,7 +37,7 @@ public class DefaultProduct extends Product {
 	}
 
 	@Override
-	protected int getPrijsPerEenheid() {
+	public int getPrijsPerEenheid() {
 		return this.prijspereenheid;
 	}
 
